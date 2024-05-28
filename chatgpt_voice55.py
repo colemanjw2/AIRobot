@@ -330,10 +330,7 @@ def listen_and_respond(source, recognizer, speech_client, stop_listening_event):
                 print("No understandable audio detected, trying again...")
                 isAwake = False
 
-
-
 # Function to handle specific queries based on predefined makerspace query
-import re
 
 def handle_specific_query(query):
     print(f"Debug: Original Query - {query}")
